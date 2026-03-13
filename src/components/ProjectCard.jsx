@@ -40,7 +40,7 @@ export default function ProjectCard({ project, isFullVersion = false }) {
                 <strong>Tecnologie:</strong>
                 {technologies?.length > 0 ? (
                   technologies.map((tech) => (
-                    <span key={tech.id} className="badge bg-success ms-1">
+                    <span key={tech.id} className="badge ms-1" style={{backgroundColor: tech.color}}>
                       {tech.name}
                     </span>
                   ))
