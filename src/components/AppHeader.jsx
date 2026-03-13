@@ -5,7 +5,7 @@ export default function AppHeader() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
       <div className="container">
         <Link className="navbar brand" href="/">
-          My Portfolio
+          Il mio Portfolio
         </Link>
         <div className="navbar-nav">
           <NavLink className="navlink" to="/">
